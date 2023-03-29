@@ -2,6 +2,7 @@
 	{{FrontSide}}
 
 	{{^Errado}}
+	{{#Correto}}
 	<div class="rightTitle">
 		<h2>Correto</h2>
 	</div>
@@ -9,6 +10,7 @@
 	<div class="rightContent">
 		<p>{{Correto}}</p>
 	</div>
+	{{/Correto}}
 	{{/Errado}}
 	{{#Errado}}
 	<div class="wrongTitle">
@@ -21,6 +23,7 @@
 	{{/Errado}}
 	<button class="getToKnowButton"><span>+</span> Saiba Mais</button>
 </div>
+{{#SaibaMais}}
 <div class="getToKnow">
 	<h2>#{{SaibaMaisTitulo}}</h2>
 	<p>{{SaibaMais}}</p>
@@ -43,3 +46,4 @@
 		wrapper.classList.add('active');
 	});
 </script>
+{{/SaibaMais}}
