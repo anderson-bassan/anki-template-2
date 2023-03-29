@@ -20,7 +20,7 @@ body {
 	background-color: #ECF0F9;
 }
 
-ul {
+ul, ol {
 	padding-left: 2rem !important;
 }
 
@@ -178,8 +178,6 @@ main .content {
 	background-color: #D9D9D9 !important;
 
 	cursor: pointer;
-
-	box-shadow: .125rem .125rem .5rem rgba(0, 0, 0, .3);
 }
 
 .getToKnowButton:hover {
@@ -208,8 +206,6 @@ main .content {
 
 	background-color: #D9D9D9;
 	border-radius: 1rem;
-
-	box-shadow: .125rem .125rem .5rem rgba(0, 0, 0, .3);
 }
 
 .getToKnow h2 {
