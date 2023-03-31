@@ -7,3 +7,4 @@
 5. Errado
 6. SaibaMaisTitulo
 7. SaibaMais
+8. Dica
